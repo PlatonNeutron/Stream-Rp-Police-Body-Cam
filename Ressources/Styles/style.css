@@ -1,0 +1,58 @@
+/* General rules */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+#BodyCamContainer, #Line1, #Line2, #Line3, #Line4
+{
+    display: flex;
+    align-items: center;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+#Rec, #RecCircle, #Player, .Separator, #day, #month, #year, #hr, #min, #sec
+{
+    margin-right: 0.3em;
+}
+
+/* Body Cam */
+#BodyCamContainer
+{
+    align-items: center;
+    flex-direction: row;
+    float: left;
+
+    margin: 2em;
+    padding: 0.5em 1em;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+}
+
+/* Body Cam Elements */
+#BodyCamImage
+{
+    height: 5em;
+    width: auto;
+
+    margin-right: 1em;
+}
+
+/* Line 1 */
+/* Rec Circle */
+#RecCircle
+{
+    height: 0.7em;
+    width: 0.7em;
+    border-radius: 50%;
+
+    display: inline-block;
+
+    background-color: red;
+    -webkit-animation:clignotement 1.5s infinite;
+}
+
+@keyframes clignotement {
+    0% {background-color:red;}
+    50% {background-color:white;}
+    100%{background-color:red}
+}
+

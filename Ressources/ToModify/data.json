@@ -1,0 +1,11 @@
+{
+    "Pseudo": "Your Name", 
+    "CallSign": "40", 
+    "Agency": "Something Police Department", 
+    "Custom": [
+        {
+            "Order": "row", 
+            "Position": "left"
+        }
+    ]
+}

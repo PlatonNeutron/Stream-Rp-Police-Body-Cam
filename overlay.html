@@ -1,16 +1,53 @@
 <!doctype html>
 <html>
     <head>
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
         <!-- Ressources import -->
         <link rel="stylesheet" href="Ressources/Styles/style.css">
-        <script src="Ressources/Scripts/script.js"></script>
+        <!-- <script type="text/javascript" src="Ressources/Scripts/script.js"></script>
+        <script type="text/javascript" src="Ressources/ToModify/data.json"></script> -->
 
         <!-- Title elements -->
-        <link rel="icon" href="Ressources/Images/Icones/cam.png" type="image/icon type">
+        <link rel="icon" href="Ressources/Images/Icones/FavIcone.png" type="image/icon type">
         <title>| DashCam</title>
     </head>
 
     <body>
+        <div id="BodyCamContainer">
+            <div>
+                <img src="Ressources/ToModify/YourImage.png" id="BodyCamImage">
+            </div>
+            <div>
+                <!-- DashCam information -->
+                <div id="Line1">
+                    <span id="Rec">REC</span>
+                    <span id="RecCircle"></span>
+                    <span>Body Cam</span>
+                </div>
+                <div id="Line2">
+                    <span id="Player">XXX</span>
+                    <span id="CallSign">[000]</span>&nbsp;&nbsp;<br />
+                </div>
+                <div id="Line3">
+                    <span id="Agency">XXX</span>&nbsp;&nbsp;<br />
+                </div>
+                <div id="Line4">
+                    <span id="day">00</span>
+                    <span class="Separator">/</span>
+                    <span id="month">XXX</span>
+                    <span class="Separator">/</span>
+                    <span id="year">0000</span>&nbsp;
+                    <span id="hr">00</span>
+                    <span class="Separator">:</span>
+                    <span  id="min">00</span>
+                    <span class="Separator">:</span>
+                    <span id="sec">00</span>
+                    <span id="tz">XX</span>&nbsp;&nbsp;
+                </div>
+            </div>
+        </div>
     </body>
-
 </html>
